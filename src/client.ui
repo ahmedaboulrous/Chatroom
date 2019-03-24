@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>653</width>
+    <height>346</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout">
+      <item>
+       <widget class="QLabel" name="label">
+        <property name="text">
+         <string>Host</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_host">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="placeholderText">
+         <string>IP</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_2">
+        <property name="text">
+         <string>Port</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_port">
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="placeholderText">
+         <string>Port</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLabel" name="label_4">
+        <property name="text">
+         <string>Alias</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QLineEdit" name="lineEdit_alias">
+        <property name="maximumSize">
+         <size>
+          <width>100</width>
+          <height>16777215</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="placeholderText">
+         <string>Client</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_connect_to_server">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(173, 255, 143);
+color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="text">
+         <string>Connect</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Chat Room</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPlainTextEdit" name="plainTextEdit_chatroom">
+      <property name="enabled">
+       <bool>false</bool>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(5, 0, 63);</string>
+      </property>
+      <property name="undoRedoEnabled">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <layout class="QHBoxLayout" name="horizontalLayout_2">
+      <item>
+       <widget class="QLineEdit" name="lineEdit_msg">
+        <property name="styleSheet">
+         <string notr="true">color: rgb(0, 0, 0);</string>
+        </property>
+        <property name="placeholderText">
+         <string>Message</string>
+        </property>
+       </widget>
+      </item>
+      <item>
+       <widget class="QPushButton" name="pushButton_send_msg">
+        <property name="minimumSize">
+         <size>
+          <width>100</width>
+          <height>0</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgb(153, 149, 255);
+color: rgb(0, 0, 0);
+background-color: rgb(85, 85, 255);</string>
+        </property>
+        <property name="text">
+         <string>Send</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+  <action name="actionNew">
+   <property name="text">
+    <string>New</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
